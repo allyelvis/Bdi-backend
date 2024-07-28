@@ -1,8 +1,12 @@
-// Example: src/pages/Dashboard.jsx
+import Navbar from '../components/Navbar';
+
 const Dashboard = () => {
-  return <h2>Dashboard</h2>;
+  return (
+    <div>
+      <Navbar />
+      <h2>Dashboard</h2>
+    </div>
+  );
 };
 
 export default Dashboard;
-
-// Repeat similarly for Users, Products, Inventory, Orders, Sales, Purchases, and Reports pages.
