@@ -23,7 +23,7 @@
   "dependencies": {
     "@vercel/analytics": "^1.4.1",
     "axios": "^1.8.3",
-    "react-router-dom": "^6.25.1"
+    "react-router-dom": "^6.30.3"
   },
   "main": "vite.config.js"
 }
